@@ -31,3 +31,48 @@ body {
 .nav-link:hover {
   color: var(--color-button);
 }
+
+/*Hero Section*/
+.hero-title {
+  font-size: 64px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.hero-title-part {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.hero-button {
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  background-color: var(--color-button);
+  font-family: var(--font-secondary);
+  cursor: pointer;
+}
+
+/*About Section*/
+
+.about {
+  background-color: var(--color-background-section);
+}
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.about-text {
+  font-size: 32px;
+  line-height: 1.19;
+}
+
+.about-link {
+  letter-spacing: 0.06em;
+  background-color: var(--color-button);
+  font-family: var(--font-secondary);
+  line-height: 1.5;
+  text-decoration: none;
+  color: var(--color-text-primary);
+}
